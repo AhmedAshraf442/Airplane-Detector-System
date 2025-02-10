@@ -37,6 +37,11 @@ The **Airplane Detector System** is designed to detect airplanes in satellite im
 - Draw bounding boxes on the full image.
 - Save and visualize the output image with detected airplanes.
 
+## Results
+![Airplane Detection](https://github.com/AhmedAshraf442/Airplane-Detector-System/blob/faab5557808b5e111594621f2f47933821e5c99e/val_batch1_labels.jpg)
+
+The model achieved high precision and recall on the Airbus dataset. The trained model successfully detected airplanes in satellite images, including the Cairo Airport test set.
+
 ## Installation & Usage
 ### Prerequisites
 Ensure you have the following installed:
@@ -69,10 +74,6 @@ pip install -r requirements.txt
    ```bash
    python inference.py --image path/to/cairo_airport_image.tif
    ```
-
-## Results
-- The model achieved high precision and recall on the Airbus dataset.
-- The trained model successfully detected airplanes in satellite images, including the Cairo Airport test set.
 
 ## Author
 Written by **Eng. Ahmed Ashraf**
